@@ -329,7 +329,7 @@ tank_unit = "l"
 
 #     ====total consumption====
 consumption_event = trip_distance / consumption_distance
-total_consumption = int(consumption_event * consumption_volume)
+total_consumption = int(consumption_event * consumption_volume + 1)
 tanks_required_float = total_consumption / tank_volume
 tanks_required_int = int(total_consumption) // tank_volume + 1 # +1
 # #consumption reserve will be less than 1km after 1599 kms passed with 3 tanks filled
