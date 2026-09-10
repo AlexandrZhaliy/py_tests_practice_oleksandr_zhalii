@@ -1,0 +1,59 @@
+URL: https://qauto2.forstudy.space/
+
+
+# ================ XPath Locators ======================
+
+//a[@routerlink='/']
+//nav[@class='header_nav']//a[@href='/']
+//nav//button[@appscrollto='aboutSection']
+//nav//button[@appscrollto='contactsSection']
+//div[@class='header_right']//button[text()='Guest log in']
+//button[text()='Sign In']
+//div[@class='header_right']//button[contains(@class, 'header_signin')]
+//h1[text()='Do more!']
+//p[contains(text(), 'hands-on experience in manual testing')]
+//button[text()='Sign up']
+//section[@class='section hero']//button[text()='Sign up']
+//iframe[@src='https://www.youtube.com/embed/znjjC0Iw8Wc?showinfo=0&controls=0']
+//div[@id='aboutSection']
+//div[@id='aboutSection']//img[@alt='Instructions']
+//div[@id='aboutSection']//p[text()='Log fuel expenses']
+//div[@id='aboutSection']//p[text()='Instructions and manuals']
+//div[@id='aboutSection']//p[contains(text(), 'vehicle maintenance expenses')]
+//div[@id='aboutSection']//p[contains(text(), 'repair your car yourself')]
+//div[@id='contactsSection']
+//div[@id='contactsSection']//h2[text()='Contacts']
+//div[@class='socials']//a[@href='https://www.facebook.com/Hillel.IT.School']
+//div[@class='socials']//a[@href='https://t.me/ithillel_kyiv']
+//div[@class='socials']//a[@href='https://www.youtube.com/user/HillelITSchool?sub_confirmation=1']
+//div[@class='contacts_link']/a[@href='https://ithillel.ua']
+//footer[@class='footer']//p[contains(text(), 'Hillel auto developed')]
+
+
+================= CSS Locators =========================
+
+a.header_logo
+nav.header_nav
+nav.header_nav a.header-link.-active
+nav.header_nav button[appscrollto='aboutSection']
+nav.header_nav button[appscrollto='contactsSection']
+div.header_right button.header-link.-guest
+div.header_right button.header_signin
+header.header .header_logo
+section.hero
+section.hero h1.hero-descriptor_title
+section.hero p.hero-descriptor_descr
+section.hero button.hero-descriptor_btn
+div.hero-video iframe.hero-video_frame
+#aboutSection
+#aboutSection img[alt='Instructions']
+#aboutSection .about-block_title
+#aboutSection .about-block_descr
+#aboutSection .about-block_picture img
+#contactsSection
+#contactsSection h2
+#contactsSection a[href='https://www.facebook.com/Hillel.IT.School']
+#contactsSection a[href='https://t.me/ithillel_kyiv']
+#contactsSection a[href*='youtube.com']
+#contactsSection a[href='https://ithillel.ua']
+footer.footer .footer_item.-left p
