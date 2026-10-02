@@ -156,6 +156,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.venv-ci
 
 # Spyder project settings
 .spyderproject
@@ -217,3 +218,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 /env
+
+# Reporting
+allure-results/
+junit.xml
